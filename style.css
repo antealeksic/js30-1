@@ -1,7 +1,5 @@
 html {
   font-size: 10px;
-  background-color: #000;
-  background-size: cover;
 }
 
 body,html {
@@ -49,3 +47,79 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  left: 10vw;
+}
+
+.div-img {
+  height: 85%;
+  width: 75%;
+}
+
+.hihat {
+  position: absolute;
+  z-index: 1000;
+  top: 100px;
+  left: 990px;
+}
+
+.boom {
+  position: absolute;
+  z-index: 1000;
+  top: 350px;
+  left: 500px;
+}
+
+.tom {
+  position: absolute;
+  z-index: 1000;
+  top: 150px;
+  left: 500px;
+}
+
+.clap {
+  position: absolute;
+  z-index: 1000;
+  top: 230px;
+  left: 800px;
+}
+
+.kick {
+  position: absolute;
+  z-index: 1000;
+  top: 230px;
+  left: 250px;
+}
+
+.snare {
+  position: absolute;
+  z-index: 1000;
+  top: 130px;
+  left: 350px;
+}
+
+.ride {
+  position: absolute;
+  z-index: 1000;
+  top: 25px;
+  left: 170px;
+}
+
+.openhat {
+  position: absolute;
+  z-index: 1000;
+  top: 15px;
+  left: 990px;
+}
+
+.tink {
+  position: absolute;
+  z-index: 1000;
+  top: 50px;
+  left: 500px;
+}
+
